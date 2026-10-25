@@ -1,0 +1,24 @@
+{
+  "commit_sha": "27dcfa74d334bc871f3234de431e71c6eeba5dd6",
+  "diversity": {
+    "distinct_1": 0.04262657815957308,
+    "distinct_2": 0.08168478972880912,
+    "mean_response_len_chars": 801.87,
+    "mean_response_len_words": 153.66,
+    "n_empty": 0,
+    "n_responses": 100
+  },
+  "generation": "base",
+  "lineage": "opt125m",
+  "perplexity": {
+    "dataset": "wikitext-2-raw-v1:test",
+    "max_length": 1024,
+    "mean_nll": 3.370485782623291,
+    "n_tokens_scored": 49999,
+    "perplexity": 29.0926570892334,
+    "stride": 512
+  },
+  "protocol": "protocol_v2",
+  "subject_model": "facebook/opt-125m",
+  "timestamp_utc": "2026-10-24T15:29:34.701005+00:00"
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+data/
+*.tmp
+results/collapse_eval/heartbeat.txt
+results/collapse_eval/progress.json
+results/collapse_eval/tables/
+results/collapse_eval/figures/

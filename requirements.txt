@@ -1,0 +1,18 @@
+# Colab already ships a CUDA torch. The notebook does not reinstall torch.
+torch>=2.2.0
+transformers>=4.51.0
+peft>=0.14.0
+datasets>=2.19.0
+accelerate>=0.30.0
+numpy>=1.26.0
+tqdm>=4.66.0
+pyyaml>=6.0
+safetensors>=0.4.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+langfuse>=3.0.0
+# Optional local StrongREJECT judge. Skip on the Colab T4 (extra Gemma, extra VRAM).
+# strong-reject>=0.1.0

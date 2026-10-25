@@ -1,0 +1,68 @@
+model_name: facebook/opt-125m
+block_size: 64
+learning_rate: 1.0e-5
+batch_size: 16
+weight_decay: 0.0
+adam_beta1: 0.9
+adam_beta2: 0.999
+max_grad_norm: 1.0
+
+# Synthetic generation (Shumailov released settings)
+num_beams: 5
+new_tokens: 64
+repetition_penalty: 3.0
+# How many blocks to generate at once. Does NOT change the train recipe (batch_size: 16).
+# 64 fits a Colab T4 (~15 GiB) for OPT-125m + beam 5; drop to 32 if you OOM.
+sample_batch_size: 64
+
+# Reporting generations from Shumailov LLM figures
+report_generations: [0, 1, 2, 3, 5, 9]
+max_generation: 9
+
+lineages:
+  Sg:
+    epochs_per_generation: 5
+    retention: 0.0
+    description: Fully synthetic recursion (Shumailov 0% retention)
+  Rg:
+    epochs_per_generation: 10
+    retention: 0.1
+    description: Mixed retention (Shumailov 10% human retained)
+  Hg:
+    epochs_per_generation: 5
+    retention: 1.0
+    description: Human-only control (no synthetic data)
+
+# Gen-0 diversity sampling
+diversity_num_samples: 200
+diversity_max_new_tokens: 64
+
+paths:
+  data_dir: data
+  wikitext_dir: data/wikitext2
+  checkpoints_dir: checkpoints
+  results_dir: results
+  hf_cache_dir: data/hf_cache
+  security_dir: data/security
+
+security:
+  wrapper_id: answer_v1
+  max_new_tokens: 256
+  do_sample: false
+  temperature: 0.0
+  # Primary API judge (locked): DeepSeek V4.1 Flash, reasoning off in openrouter_judge.
+  # Secondary / calibration: judge: strongreject_finetuned (local Gemma-2B + PEFT).
+  judge: openrouter_rubric
+  # protocol_v2: dated snapshot, NOT the deepseek-flash-latest alias (comparability).
+  openrouter_model: deepseek/deepseek-v4.1-flash-1017
+  asr_threshold: 0.5
+  generate_batch_size: 4
+  # Official HarmBench text-behaviour CSV (cached under security_dir).
+  harmbench_url: https://raw.githubusercontent.com/centerforaisafety/HarmBench/main/data/behavior_datasets/harmbench_behaviors_text_all.csv
+  # Exclude copyright-only items if you want a smaller “harm” core; default keeps all text rows.
+  exclude_copyright: false
+  tier2_generations: [3, 9]
+  # Official JailbreakBench behaviours (not jailbreak prefixes).
+  jbb_dataset: JailbreakBench/JBB-Behaviors
+  # Official garak, only if the CLI is on PATH. Empty list = skip.
+  garak_probes: []

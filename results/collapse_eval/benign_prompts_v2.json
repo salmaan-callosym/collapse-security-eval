@@ -1,0 +1,602 @@
+[
+  {
+    "order": 0,
+    "dolly_index": 422,
+    "category": "classification",
+    "prompt": "Which ones are metals and non metals: Copper, Hydrogen, Silver, Carbon, Gold, Nitrogen"
+  },
+  {
+    "order": 1,
+    "dolly_index": 444,
+    "category": "open_qa",
+    "prompt": "What is \"diglossia\"?"
+  },
+  {
+    "order": 2,
+    "dolly_index": 552,
+    "category": "classification",
+    "prompt": "Classify each of the following as \"heavy\" or \"light\": elephant, feather, hippo, paper, whale"
+  },
+  {
+    "order": 3,
+    "dolly_index": 571,
+    "category": "brainstorming",
+    "prompt": "What are some ways to inculcate practice based learning in kids?"
+  },
+  {
+    "order": 4,
+    "dolly_index": 572,
+    "category": "classification",
+    "prompt": "Which is a species of fish? Nurse or Nurse shark"
+  },
+  {
+    "order": 5,
+    "dolly_index": 635,
+    "category": "open_qa",
+    "prompt": "What is Python?"
+  },
+  {
+    "order": 6,
+    "dolly_index": 645,
+    "category": "brainstorming",
+    "prompt": "What are really considered the Seven Wonders of the World?"
+  },
+  {
+    "order": 7,
+    "dolly_index": 741,
+    "category": "brainstorming",
+    "prompt": "What are some fun ways that you could spend time with your family?"
+  },
+  {
+    "order": 8,
+    "dolly_index": 1079,
+    "category": "general_qa",
+    "prompt": "Who is the best golfer in the world?"
+  },
+  {
+    "order": 9,
+    "dolly_index": 1218,
+    "category": "brainstorming",
+    "prompt": "What are the new 7 Wonders of the World:"
+  },
+  {
+    "order": 10,
+    "dolly_index": 1238,
+    "category": "classification",
+    "prompt": "Which of the following are prime numbers: 7, 12, 23, 33, 64, 79, 97, and 100."
+  },
+  {
+    "order": 11,
+    "dolly_index": 1310,
+    "category": "creative_writing",
+    "prompt": "What is the best way to put a toddler to sleep at night?"
+  },
+  {
+    "order": 12,
+    "dolly_index": 1325,
+    "category": "general_qa",
+    "prompt": "When is the best time to visit Chicago?"
+  },
+  {
+    "order": 13,
+    "dolly_index": 1361,
+    "category": "open_qa",
+    "prompt": "How do you brew beer?"
+  },
+  {
+    "order": 14,
+    "dolly_index": 1669,
+    "category": "classification",
+    "prompt": "Is wolf a domestic or a wild animal?"
+  },
+  {
+    "order": 15,
+    "dolly_index": 1723,
+    "category": "brainstorming",
+    "prompt": "What are some good beginner songs to learn on guitar?"
+  },
+  {
+    "order": 16,
+    "dolly_index": 1742,
+    "category": "general_qa",
+    "prompt": "Who invented Calculus?"
+  },
+  {
+    "order": 17,
+    "dolly_index": 1751,
+    "category": "open_qa",
+    "prompt": "Name a few popular metal genres"
+  },
+  {
+    "order": 18,
+    "dolly_index": 1842,
+    "category": "brainstorming",
+    "prompt": "What are the different ways to bake sourdough?"
+  },
+  {
+    "order": 19,
+    "dolly_index": 2242,
+    "category": "brainstorming",
+    "prompt": "What is 75 hard and what are the tasks?"
+  },
+  {
+    "order": 20,
+    "dolly_index": 2253,
+    "category": "brainstorming",
+    "prompt": "What are the main ingredients of deviled eggs and what are some unique add-in ideas?"
+  },
+  {
+    "order": 21,
+    "dolly_index": 2280,
+    "category": "open_qa",
+    "prompt": "What is a hadron?"
+  },
+  {
+    "order": 22,
+    "dolly_index": 2384,
+    "category": "creative_writing",
+    "prompt": "Why should you live in Florida?"
+  },
+  {
+    "order": 23,
+    "dolly_index": 2517,
+    "category": "open_qa",
+    "prompt": "What is a snowman?"
+  },
+  {
+    "order": 24,
+    "dolly_index": 2532,
+    "category": "creative_writing",
+    "prompt": "Write a haiku about a naughty cat."
+  },
+  {
+    "order": 25,
+    "dolly_index": 2603,
+    "category": "creative_writing",
+    "prompt": "Rick was asked, Suppose your mother has four sons, named East, West, and South. What's the fourth son's name?"
+  },
+  {
+    "order": 26,
+    "dolly_index": 2747,
+    "category": "general_qa",
+    "prompt": "Why are plants green?"
+  },
+  {
+    "order": 27,
+    "dolly_index": 2983,
+    "category": "open_qa",
+    "prompt": "what are the five pillars of migration or modernization from a legacy data warehouse to a modern lakehouse?"
+  },
+  {
+    "order": 28,
+    "dolly_index": 3019,
+    "category": "brainstorming",
+    "prompt": "How to become a good team player?"
+  },
+  {
+    "order": 29,
+    "dolly_index": 3179,
+    "category": "general_qa",
+    "prompt": "who won the last soccer world cup ?"
+  },
+  {
+    "order": 30,
+    "dolly_index": 3196,
+    "category": "classification",
+    "prompt": "Tell me which of these are shades of Blue that BWM paints their cars: Miami Blue, Laguna Seca Blue, Le Mans Blue, Interlagos Blue, Heritage Blue, Mexico Blue, Yas Marina Blue, Gulf Blue, Long Beach Blue."
+  },
+  {
+    "order": 31,
+    "dolly_index": 3403,
+    "category": "open_qa",
+    "prompt": "What is a stock in finance?"
+  },
+  {
+    "order": 32,
+    "dolly_index": 3807,
+    "category": "classification",
+    "prompt": "Tell me whether these are primary or secondary colors: Yellow, Blue, Green, Orange, Red, Violet"
+  },
+  {
+    "order": 33,
+    "dolly_index": 3896,
+    "category": "creative_writing",
+    "prompt": "What do I need to know about drones to become a hobbyist drone pilot?"
+  },
+  {
+    "order": 34,
+    "dolly_index": 3956,
+    "category": "open_qa",
+    "prompt": "What is a merchant bank?"
+  },
+  {
+    "order": 35,
+    "dolly_index": 4052,
+    "category": "open_qa",
+    "prompt": "In the series A Song of Ice and Fire, who is the founder of House Thenn?"
+  },
+  {
+    "order": 36,
+    "dolly_index": 4287,
+    "category": "open_qa",
+    "prompt": "Which Philip K. Dick novel was the basis for the movie \"Blade Runner\"?"
+  },
+  {
+    "order": 37,
+    "dolly_index": 4392,
+    "category": "classification",
+    "prompt": "Identify which instrument is string or percussion: Rainstick, Tiple"
+  },
+  {
+    "order": 38,
+    "dolly_index": 4476,
+    "category": "open_qa",
+    "prompt": "What is the largest city in Ecuador by population?"
+  },
+  {
+    "order": 39,
+    "dolly_index": 4485,
+    "category": "classification",
+    "prompt": "Which animals are a dog or cat?  a cocker spaniel, labrador, Persian, Maine Coone, and king Charles?"
+  },
+  {
+    "order": 40,
+    "dolly_index": 4499,
+    "category": "open_qa",
+    "prompt": "What is an excavator?"
+  },
+  {
+    "order": 41,
+    "dolly_index": 4647,
+    "category": "classification",
+    "prompt": "Which of the following are companies that sell sports apparel? Nike, adidas, Energizer, Logitech, Dell, Saucony"
+  },
+  {
+    "order": 42,
+    "dolly_index": 4751,
+    "category": "classification",
+    "prompt": "Classify the following as being either being a type of shark or a type of bird:  hammerhead, eagle, tiger, sawtooth, blacktip, oriole, osprey, falcon, great white."
+  },
+  {
+    "order": 43,
+    "dolly_index": 4803,
+    "category": "open_qa",
+    "prompt": "What is the difference between a compact and economy-sized car?"
+  },
+  {
+    "order": 44,
+    "dolly_index": 4816,
+    "category": "general_qa",
+    "prompt": "Does Bolivia have a wine scene?"
+  },
+  {
+    "order": 45,
+    "dolly_index": 4844,
+    "category": "open_qa",
+    "prompt": "What would Bruce lee do if he is alive?"
+  },
+  {
+    "order": 46,
+    "dolly_index": 5119,
+    "category": "open_qa",
+    "prompt": "What is the best programming language?"
+  },
+  {
+    "order": 47,
+    "dolly_index": 5408,
+    "category": "brainstorming",
+    "prompt": "What are a lot of different options for traveling across New York City?"
+  },
+  {
+    "order": 48,
+    "dolly_index": 5622,
+    "category": "general_qa",
+    "prompt": "What is Airsoft ?"
+  },
+  {
+    "order": 49,
+    "dolly_index": 5709,
+    "category": "open_qa",
+    "prompt": "What is AWS EKS?"
+  },
+  {
+    "order": 50,
+    "dolly_index": 6204,
+    "category": "open_qa",
+    "prompt": "What was the last item shown on British TV before WW2"
+  },
+  {
+    "order": 51,
+    "dolly_index": 6206,
+    "category": "classification",
+    "prompt": "Which is a species of fish? Puppy or Pupfish"
+  },
+  {
+    "order": 52,
+    "dolly_index": 6208,
+    "category": "creative_writing",
+    "prompt": "Write a horror movie synopsis of a couple who move into house and the movie must involve AI. Give it an M Night Shyamalam twist ending"
+  },
+  {
+    "order": 53,
+    "dolly_index": 6331,
+    "category": "classification",
+    "prompt": "What rhymes with orange?"
+  },
+  {
+    "order": 54,
+    "dolly_index": 6612,
+    "category": "classification",
+    "prompt": "Classify each of the following as either a state in the United States or a country: Georgia, California, Alaska, Canada, Peru, Texas, Florida, Pennsylvania, New Mexico, Mexico, Ireland, Russia, Oregon"
+  },
+  {
+    "order": 55,
+    "dolly_index": 7150,
+    "category": "open_qa",
+    "prompt": "How many toes do polydactyl cats have?"
+  },
+  {
+    "order": 56,
+    "dolly_index": 7435,
+    "category": "general_qa",
+    "prompt": "How do you make a good cappuccino?"
+  },
+  {
+    "order": 57,
+    "dolly_index": 7760,
+    "category": "open_qa",
+    "prompt": "Which soccer player has the most number of career goals?"
+  },
+  {
+    "order": 58,
+    "dolly_index": 8011,
+    "category": "open_qa",
+    "prompt": "What is Apu's wife's name on the Simpsons?"
+  },
+  {
+    "order": 59,
+    "dolly_index": 8073,
+    "category": "brainstorming",
+    "prompt": "Can you explain how I can analyze Simba logs?"
+  },
+  {
+    "order": 60,
+    "dolly_index": 8159,
+    "category": "open_qa",
+    "prompt": "What are the official languages of Canada?"
+  },
+  {
+    "order": 61,
+    "dolly_index": 8338,
+    "category": "creative_writing",
+    "prompt": "I am about to have my third child under the age of 4.  What car should I get that would fit my family of 5, 3 kids in car seats, a dog and the possibility of adding another child in a few years?"
+  },
+  {
+    "order": 62,
+    "dolly_index": 8527,
+    "category": "brainstorming",
+    "prompt": "Best place to visit Sikkim for 2 days"
+  },
+  {
+    "order": 63,
+    "dolly_index": 8683,
+    "category": "open_qa",
+    "prompt": "What links Catalonia, Andalusia, Cantabria, Galicia"
+  },
+  {
+    "order": 64,
+    "dolly_index": 8828,
+    "category": "creative_writing",
+    "prompt": "How can I thicken my soup recipe?"
+  },
+  {
+    "order": 65,
+    "dolly_index": 9339,
+    "category": "brainstorming",
+    "prompt": "What books did Brene Brown write?"
+  },
+  {
+    "order": 66,
+    "dolly_index": 9811,
+    "category": "open_qa",
+    "prompt": "Best places to visit in India During Winter to experience Snowfall"
+  },
+  {
+    "order": 67,
+    "dolly_index": 9898,
+    "category": "open_qa",
+    "prompt": "Name some famous hindi film actresses"
+  },
+  {
+    "order": 68,
+    "dolly_index": 10006,
+    "category": "classification",
+    "prompt": "Categorize each of the following by the amount of noise they would make, either \"a lot of noise\", \"some noise\" or \"no noise\". A baby crying, a glass vase being dropped, a door being closed, a rabbit hopping across carpeted floors, a running microwave, reading a book"
+  },
+  {
+    "order": 69,
+    "dolly_index": 10024,
+    "category": "brainstorming",
+    "prompt": "What is cloud computing?"
+  },
+  {
+    "order": 70,
+    "dolly_index": 10039,
+    "category": "open_qa",
+    "prompt": "What are the most abundant greenhouse gases in Earth's atmosphere"
+  },
+  {
+    "order": 71,
+    "dolly_index": 10102,
+    "category": "brainstorming",
+    "prompt": "Give me a bulleted list of 5 states in alphabetical order"
+  },
+  {
+    "order": 72,
+    "dolly_index": 10280,
+    "category": "brainstorming",
+    "prompt": "What are the measurements needed to fit pants?"
+  },
+  {
+    "order": 73,
+    "dolly_index": 10364,
+    "category": "creative_writing",
+    "prompt": "Why is recycling important"
+  },
+  {
+    "order": 74,
+    "dolly_index": 10439,
+    "category": "brainstorming",
+    "prompt": "What is the best way to learn basketball?"
+  },
+  {
+    "order": 75,
+    "dolly_index": 10521,
+    "category": "open_qa",
+    "prompt": "Who are the founders of OpenAI?"
+  },
+  {
+    "order": 76,
+    "dolly_index": 10989,
+    "category": "brainstorming",
+    "prompt": "Give me a popular quote from book, \"The Little Prince\"."
+  },
+  {
+    "order": 77,
+    "dolly_index": 11089,
+    "category": "creative_writing",
+    "prompt": "How do I write a promo packet?"
+  },
+  {
+    "order": 78,
+    "dolly_index": 11095,
+    "category": "brainstorming",
+    "prompt": "Who were the members of England's men's football World Cup winning team in 1966?"
+  },
+  {
+    "order": 79,
+    "dolly_index": 11166,
+    "category": "classification",
+    "prompt": "Classify which cat breeds into long-haired and short-haired breeds:  Siamese, Maine Coon, Norwegian Forest Cat, Russian Blue, British Shorthair, Persian, Ragdoll, Himalayan, Burman"
+  },
+  {
+    "order": 80,
+    "dolly_index": 11374,
+    "category": "brainstorming",
+    "prompt": "will AI replace my jobs"
+  },
+  {
+    "order": 81,
+    "dolly_index": 11831,
+    "category": "open_qa",
+    "prompt": "Who was Else Schmitz-Gohr"
+  },
+  {
+    "order": 82,
+    "dolly_index": 12086,
+    "category": "classification",
+    "prompt": "Which months of the year are considered summer, spring, winter and autumn."
+  },
+  {
+    "order": 83,
+    "dolly_index": 12140,
+    "category": "open_qa",
+    "prompt": "What is a string quartet?"
+  },
+  {
+    "order": 84,
+    "dolly_index": 12197,
+    "category": "classification",
+    "prompt": "Identify which animal species is alive or extinct: Asian Elephant, Dire Wolf"
+  },
+  {
+    "order": 85,
+    "dolly_index": 12572,
+    "category": "open_qa",
+    "prompt": "What books would you recommend someone read to improve their general knowledge of the world?"
+  },
+  {
+    "order": 86,
+    "dolly_index": 12791,
+    "category": "general_qa",
+    "prompt": "What is T20 cricket?"
+  },
+  {
+    "order": 87,
+    "dolly_index": 12860,
+    "category": "open_qa",
+    "prompt": "What is the best book to read about the Battle of Stalingrad?"
+  },
+  {
+    "order": 88,
+    "dolly_index": 13024,
+    "category": "open_qa",
+    "prompt": "In the comic book series Calvin and Hobbes, who are Calvin and Hobbes named after?"
+  },
+  {
+    "order": 89,
+    "dolly_index": 13065,
+    "category": "general_qa",
+    "prompt": "Why Do We Need GIS?"
+  },
+  {
+    "order": 90,
+    "dolly_index": 13827,
+    "category": "open_qa",
+    "prompt": "Name different corporate messaging applications companies use."
+  },
+  {
+    "order": 91,
+    "dolly_index": 13902,
+    "category": "brainstorming",
+    "prompt": "What are some of the best things about a summertime visit to Mount Desert Island, Maine?"
+  },
+  {
+    "order": 92,
+    "dolly_index": 13985,
+    "category": "general_qa",
+    "prompt": "What to do in Seattle in 48 hours?"
+  },
+  {
+    "order": 93,
+    "dolly_index": 14378,
+    "category": "general_qa",
+    "prompt": "Why is it important to be a listener?"
+  },
+  {
+    "order": 94,
+    "dolly_index": 14495,
+    "category": "general_qa",
+    "prompt": "What's a good time of year to visit Seattle?"
+  },
+  {
+    "order": 95,
+    "dolly_index": 14523,
+    "category": "brainstorming",
+    "prompt": "what do you think makes Japan Unique"
+  },
+  {
+    "order": 96,
+    "dolly_index": 14525,
+    "category": "classification",
+    "prompt": "Identify which instrument is string or woodwind: Diplica, Kontra"
+  },
+  {
+    "order": 97,
+    "dolly_index": 14610,
+    "category": "brainstorming",
+    "prompt": "Give me a list of data structures with O(1) access time"
+  },
+  {
+    "order": 98,
+    "dolly_index": 14619,
+    "category": "classification",
+    "prompt": "Are these companies private or public"
+  },
+  {
+    "order": 99,
+    "dolly_index": 14856,
+    "category": "general_qa",
+    "prompt": "Can I feed table food to dogs?"
+  }
+]

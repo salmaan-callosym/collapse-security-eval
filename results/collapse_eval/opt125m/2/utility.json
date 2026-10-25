@@ -1,0 +1,24 @@
+{
+  "commit_sha": null,
+  "diversity": {
+    "distinct_1": 0.04306526008128968,
+    "distinct_2": 0.10973483805853748,
+    "mean_response_len_chars": 1037.09,
+    "mean_response_len_words": 218.97,
+    "n_empty": 1,
+    "n_responses": 100
+  },
+  "generation": 2,
+  "lineage": "opt125m",
+  "perplexity": {
+    "dataset": "wikitext-2-raw-v1:test",
+    "max_length": 1024,
+    "mean_nll": 3.790466070175171,
+    "n_tokens_scored": 49999,
+    "perplexity": 44.27703094482422,
+    "stride": 512
+  },
+  "protocol": "protocol_v2",
+  "subject_model": "local:Sg/seed0/gen2",
+  "timestamp_utc": "2026-10-24T17:23:48.859343+00:00"
+}
